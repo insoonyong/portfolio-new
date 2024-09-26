@@ -1,0 +1,46 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 0 auto;
+    font-size: 100%;
+    font-family: 'HakgyoansimDunggeunmisoTTF-B';
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #dedede;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
