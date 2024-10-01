@@ -612,8 +612,70 @@ button:hover {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
-  
+  gap: 50px;
+
 }
+
+.galleryto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.gallerytotex {
+  position: relative;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallerytotex h2 {
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  color: #f35626; /* 이 색상은 그라데이션에서 이미 정의되므로, 기본 색상으로 설정됨 */
+  background-image: linear-gradient(92deg, #f35626, #feab3a);
+  text-align: center;
+  background-clip: text;
+  color: transparent; /* -webkit-text-fill-color 대신 color 속성 사용 */
+  animation: hue 10s infinite linear;
+}
+.gallerytr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.gallerytrtex{
+  position: relative;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallerytrtex h2{
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  color: #f35626; /* 이 색상은 그라데이션에서 이미 정의되므로, 기본 색상으로 설정됨 */
+  background-image: linear-gradient(92deg, #f35626, #feab3a);
+  text-align: center;
+  background-clip: text;
+  color: transparent; /* -webkit-text-fill-color 대신 color 속성 사용 */
+  animation: hue 10s infinite linear;
+}
+
 /* 플립 카드 스타일 */
 .flip-card {
   width: 400px;
